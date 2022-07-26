@@ -3,9 +3,8 @@ training_pipeline_config:
   artifact_dir: artifact
 
 data_ingestion_config:
-  train_data : Train_data.csv
-  test_data : Test_data.csv
-  tgz_download_dir: tgz_data
+  train_dataset_download_url : https://raw.githubusercontent.com/mohitnikumbh16/Stores_Sales_Prediction_project/main/bigmart/Dataset/Train_data.csv
+  test_dataset_download_url : 
   raw_data_dir: raw_data
   ingested_dir: ingested_data
   ingested_train_dir: train
